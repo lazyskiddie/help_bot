@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
-# IMPORTANT: Replace with your actual FastAPI backend URL
-# This URL should point to where your backend chat endpoint is hosted (e.g., Railway URL)
+
+# Railway URL)
 API_URL = "https://<your-railway-backend-url>/chat"
 
 def chat_interface():
